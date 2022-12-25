@@ -8,6 +8,26 @@ import java.util.Objects;
 public class User {
 
 
+    private  int id;
+    private  String userName;
+    private  long cardNumber;
+    private  int hashPassword;
+
+    public int getId(){
+        return id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public int getHashPassword() {
+        return hashPassword;
+    }
+
+    public long getCardNumber() {
+        return cardNumber;
+    }
 
     public User(int id, String userName, int hashPassword, long cardNumber) {
         this.id = id;
